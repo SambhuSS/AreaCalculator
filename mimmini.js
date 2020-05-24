@@ -8,8 +8,8 @@ function area() {
   area = Math.round(area * 100) / 100;
   area_cent = area / 40.47;
   area_cent = Math.round(area_cent * 100) / 100;
-  document.getElementById("area").value = area + "sqm";
-  document.getElementById("area_cent").value = area_cent + "cents";
+  document.getElementById("area").value = area + " sqm";
+  document.getElementById("area_cent").value = area_cent + " cents";
   document.getElementById("side1").value = "";
   document.getElementById("side2").value = "";
   document.getElementById("side3").value = "";
